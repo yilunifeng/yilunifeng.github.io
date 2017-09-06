@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-06T13:54:42.938Z</updated>
+  <updated>2017-09-06T14:10:42.617Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/06/Submit%E4%B9%8BMarkdown%E6%B5%8B%E8%AF%95/"/>
     <id>http://yoursite.com/2017/09/06/Submit之Markdown测试/</id>
     <published>2017-09-06T11:52:48.139Z</published>
-    <updated>2017-09-06T13:54:42.938Z</updated>
+    <updated>2017-09-06T14:10:42.617Z</updated>
     
     <content type="html"><![CDATA[<h2 id="九月六日的Markdown基本语法"><a href="#九月六日的Markdown基本语法" class="headerlink" title="九月六日的Markdown基本语法"></a>九月六日的Markdown基本语法</h2><blockquote>
 <h3 id="标题段落应用语法学习"><a href="#标题段落应用语法学习" class="headerlink" title="标题段落应用语法学习"></a>标题段落应用语法学习</h3><ul>
@@ -37,6 +37,7 @@
 <pre><code>这是一个代码块。
  return shell_exec(&quot;echo $input | $markdown_script&quot;);
 </code></pre><hr>
+<a id="more"></a>
 <blockquote>
 <ol>
 <li>这是第一行列表项。</li>
@@ -57,7 +58,20 @@
     <summary type="html">
     
       &lt;h2 id=&quot;九月六日的Markdown基本语法&quot;&gt;&lt;a href=&quot;#九月六日的Markdown基本语法&quot; class=&quot;headerlink&quot; title=&quot;九月六日的Markdown基本语法&quot;&gt;&lt;/a&gt;九月六日的Markdown基本语法&lt;/h2&gt;&lt;blockquote&gt;
-
+&lt;h3 id=&quot;标题段落应用语法学习&quot;&gt;&lt;a href=&quot;#标题段落应用语法学习&quot; class=&quot;headerlink&quot; title=&quot;标题段落应用语法学习&quot;&gt;&lt;/a&gt;标题段落应用语法学习&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;关于标题和段落格式&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;文章标题要以#开头,任意与否对称结束- -&lt;br&gt; 文章标题以#与h1-h6对称&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;关于引用使用&amp;gt;来引用，以及二级引用使用&amp;gt;&amp;gt;&lt;br&gt;使用其来控制样式&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;关于代码块的格式&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;pre&gt;&lt;code&gt;这是一个代码块。
+ return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;);
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
     
     </summary>
     
