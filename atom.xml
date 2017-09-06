@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-06T10:44:43.978Z</updated>
+  <updated>2017-09-06T11:20:45.375Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/06/%E6%90%AD%E5%BB%BAHEXO%E6%89%98%E7%AE%A1%E8%87%B3Github%E4%B9%8B%E4%B8%80/"/>
     <id>http://yoursite.com/2017/09/06/搭建HEXO托管至Github之一/</id>
     <published>2017-09-06T10:42:53.000Z</published>
-    <updated>2017-09-06T10:44:43.978Z</updated>
+    <updated>2017-09-06T11:20:45.375Z</updated>
     
     <content type="html"><![CDATA[<p>搭建过程：坑坑洼洼！真的是醉了，都是坑啊！<br>    现在要实现的功能是百度统计和评论功能，摸索一下 - -</p>
 ]]></content>
