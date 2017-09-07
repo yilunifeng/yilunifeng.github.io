@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-07T06:14:44.834Z</updated>
+  <updated>2017-09-07T06:29:39.865Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,44 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo搭建之对目录和标签的改造</title>
+    <link href="http://yoursite.com/2017/09/07/hexo%E6%90%AD%E5%BB%BA%E4%B9%8B%E5%AF%B9%E7%9B%AE%E5%BD%95%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E6%94%B9%E9%80%A0/"/>
+    <id>http://yoursite.com/2017/09/07/hexo搭建之对目录和标签的改造/</id>
+    <published>2017-09-07T06:25:42.000Z</published>
+    <updated>2017-09-07T06:29:39.865Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="标签的使用分类"><a href="#标签的使用分类" class="headerlink" title="标签的使用分类"></a>标签的使用分类</h4><blockquote>
+<ul>
+<li>对于标签的使用：直接在生成文章后在对应的<em>tags</em>后输入标签即可<br>例如</li>
+</ul>
+</blockquote>
+<pre><code>title: hexo搭建之对目录和标签的改造
+date: 2017-09-07 14:25:42
+tags:
+-日记
+</code></pre><hr>
+<blockquote>
+<ul>
+<li>对于目录的改造<br>需要对目录进行编写</li>
+</ul>
+</blockquote>
+<hr>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;标签的使用分类&quot;&gt;&lt;a href=&quot;#标签的使用分类&quot; class=&quot;headerlink&quot; title=&quot;标签的使用分类&quot;&gt;&lt;/a&gt;标签的使用分类&lt;/h4&gt;&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;对于标签的使用：直接在生成文章后在对应的&lt;em&gt;tags&lt;/e
+    
+    </summary>
+    
+    
+      <category term="-日记" scheme="http://yoursite.com/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>学习日记</title>
