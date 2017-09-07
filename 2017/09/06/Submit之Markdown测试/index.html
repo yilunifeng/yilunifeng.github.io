@@ -17,7 +17,7 @@
 <meta property="og:description" content="九月六日的Markdown基本语法 标题段落应用语法学习 关于标题和段落格式  文章标题要以#开头,任意与否对称结束- - 文章标题以#与h1-h6对称  关于引用使用&amp;gt;来引用，以及二级引用使用&amp;gt;&amp;gt;使用其来控制样式  关于代码块的格式    这是一个代码块。  return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://ovuz7fiq5.bkt.clouddn.com/chenchen.jpg">
-<meta property="og:updated_time" content="2017-09-07T06:36:30.441Z">
+<meta property="og:updated_time" content="2017-09-07T06:57:28.732Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="学习日记">
 <meta name="twitter:description" content="九月六日的Markdown基本语法 标题段落应用语法学习 关于标题和段落格式  文章标题要以#开头,任意与否对称结束- - 文章标题以#与h1-h6对称  关于引用使用&amp;gt;来引用，以及二级引用使用&amp;gt;&amp;gt;使用其来控制样式  关于代码块的格式    这是一个代码块。  return shell_exec(&amp;quot;echo $input | $markdown_script&amp;quot;">
@@ -185,6 +185,33 @@ var _hmt = _hmt || [];
         
       </header>
     
+     <!-- 目录内容 -->
+        
+            <p class="show-toc-btn" id="show-toc-btn" onclick="showToc();" style="display:none">
+            <span class="btn-bg"></span>
+            <span class="btn-text">文章导航</span>
+            </p>
+            <div id="toc-article" class="toc-article">
+                <span id="toc-close" class="toc-close" title="隐藏导航" onclick="showBtn();">×</span>
+                <strong class="toc-title">文章目录</strong>
+                <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#九月六日的Markdown基本语法"><span class="toc-number">1.</span> <span class="toc-text">九月六日的Markdown基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标题段落应用语法学习"><span class="toc-number">1.1.</span> <span class="toc-text">标题段落应用语法学习</span></a></li></ol></li></ol>
+           </div>
+           <script type="text/javascript">
+            function showToc(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:block");
+                show_toc_btn.setAttribute("style","display:none");
+                };
+            function showBtn(){
+                var toc_article = document.getElementById("toc-article");
+                var show_toc_btn = document.getElementById("show-toc-btn");
+                toc_article.setAttribute("style","display:none");
+                show_toc_btn.setAttribute("style","display:block");
+                };
+           </script>
+             
+        <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
         <h2 id="九月六日的Markdown基本语法"><a href="#九月六日的Markdown基本语法" class="headerlink" title="九月六日的Markdown基本语法"></a>九月六日的Markdown基本语法</h2><blockquote>
@@ -352,6 +379,19 @@ var _hmt = _hmt || [];
             </div>
         </div>
         
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#九月六日的Markdown基本语法"><span class="toc-number">1.</span> <span class="toc-text">九月六日的Markdown基本语法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#标题段落应用语法学习"><span class="toc-number">1.1.</span> <span class="toc-text">标题段落应用语法学习</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
         
     </div>
 </aside>
