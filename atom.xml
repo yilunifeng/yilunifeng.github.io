@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yilunifeng.github.io/"/>
-  <updated>2017-09-07T06:56:57.872Z</updated>
+  <updated>2017-09-08T01:41:49.971Z</updated>
   <id>https://yilunifeng.github.io/</id>
   
   <author>
@@ -14,6 +14,31 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>对requestbody和responsebody注解的学习</title>
+    <link href="https://yilunifeng.github.io/2017/09/08/%E5%AF%B9requestbody%E5%92%8Cresponsebody%E6%B3%A8%E8%A7%A3%E7%9A%84%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://yilunifeng.github.io/2017/09/08/对requestbody和responsebody注解的学习/</id>
+    <published>2017-09-08T01:36:42.000Z</published>
+    <updated>2017-09-08T01:41:49.971Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="她把眼泪留在落幕以后-苏濮"><a href="#她把眼泪留在落幕以后-苏濮" class="headerlink" title="她把眼泪留在落幕以后-苏濮"></a>她把眼泪留在落幕以后-苏濮</h3><blockquote>
+<h4 id="RequestBody"><a href="#RequestBody" class="headerlink" title="@RequestBody"></a>@RequestBody</h4><pre><code>1. 该注解用于读取Request请求的body部分数据，使用系统默认配置的HttpMessageConverter进行解析，然后把相应的数据绑定到要返回的对象上；
+2. 再把HttpMessageConverter返回的对象数据绑定到 controller中方法的参数上。
+</code></pre></blockquote>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;她把眼泪留在落幕以后-苏濮&quot;&gt;&lt;a href=&quot;#她把眼泪留在落幕以后-苏濮&quot; class=&quot;headerlink&quot; title=&quot;她把眼泪留在落幕以后-苏濮&quot;&gt;&lt;/a&gt;她把眼泪留在落幕以后-苏濮&lt;/h3&gt;&lt;blockquote&gt;
+&lt;h4 id=&quot;RequestB
+    
+    </summary>
+    
+    
+      <category term="spring" scheme="https://yilunifeng.github.io/tags/spring/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo搭建之对目录和标签的改造</title>
