@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yilunifeng.github.io/"/>
-  <updated>2017-09-18T07:14:56.229Z</updated>
+  <updated>2017-09-18T07:17:27.865Z</updated>
   <id>https://yilunifeng.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://yilunifeng.github.io/2017/09/18/spring%E9%87%8D%E6%B8%A9%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://yilunifeng.github.io/2017/09/18/spring重温学习笔记/</id>
     <published>2017-09-18T06:57:27.000Z</published>
-    <updated>2017-09-18T07:14:56.229Z</updated>
+    <updated>2017-09-18T07:17:27.865Z</updated>
     
     <content type="html"><![CDATA[<h3 id="spring-IOC"><a href="#spring-IOC" class="headerlink" title="spring IOC"></a>spring IOC</h3><h4 id="spring-中对于类加载文件的理解"><a href="#spring-中对于类加载文件的理解" class="headerlink" title="spring 中对于类加载文件的理解"></a>spring 中对于类加载文件的理解</h4><blockquote>
 <p>   spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：</p>
@@ -60,6 +60,8 @@
     
     
       <category term="spring" scheme="https://yilunifeng.github.io/tags/spring/"/>
+    
+      <category term="学习笔记" scheme="https://yilunifeng.github.io/tags/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
