@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="一路逆风">
 <meta property="og:description" content="spring IOCspring 中对于类加载文件的理解    spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFactory 根据g">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-18T08:10:36.936Z">
+<meta property="og:updated_time" content="2017-09-18T08:13:53.613Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="spring重温学习笔记">
 <meta name="twitter:description" content="spring IOCspring 中对于类加载文件的理解    spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFactory 根据g">
@@ -236,20 +236,21 @@ var _hmt = _hmt || [];
 <li>构造方法注入属性值<br>需要在bean对应的po中声明构造函数<br>在bean.xml中设置<pre><code>&lt;constructor-arg name=&quot;&quot; value=&quot;&quot; /&gt;
 </code></pre></li>
 <li>注入值类型<br>字面值，其他bean类型，集合类型<br>字面值直接在<value>中赋值<br>bean类型需要在xml中配置<pre><code>&lt;property name=&quot;elseBean&quot; ref=&quot;OrderItem&quot; /&gt;
-</code></pre>集合类型<br>spring分别提供了<array>、<list>、<set>、<map>、<props><pre><code>分别对应设置类型为数组、list、set、map、propertys的集合属性值
+</code></pre>集合类型<br>spring分别提供了/<array>、/<list>、/<set>、/<map>、/<props><pre><code>分别对应设置类型为数组、list、set、map、propertys的集合属性值
 在xml中配置如下：
-    &lt;property name=&quot;myArray&quot;&gt;
-        &lt;array/list/set&gt;
-            &lt;value&gt;1234&lt;value/&gt;
-            &lt;ref bean=&quot;OrderItem&quot;/&gt;
-        &lt;/array&gt;
-  &lt;/property&gt;
 </code></pre></props></map></set></list></array></value></li>
 </ul>
 </li>
 </ul>
 </blockquote>
-<pre><code>     &lt;property name=&quot;myMap&quot;&gt;
+<pre><code>      &lt;property name=&quot;myArray&quot;&gt;
+          &lt;array/list/set&gt;
+              &lt;value&gt;1234&lt;value/&gt;
+              &lt;ref bean=&quot;OrderItem&quot;/&gt;
+          &lt;/array&gt;
+    &lt;/property&gt;
+
+     &lt;property name=&quot;myMap&quot;&gt;
           &lt;map&gt;
               &lt;entry key=&quot;1&quot; value=&quot;1234&quot; /&gt;
               &lt;entry key=&quot;1&quot; value-ref=&quot;OrderItem&quot;/&gt;
@@ -262,6 +263,7 @@ var _hmt = _hmt || [];
               &lt;prop key=&quot;1&quot;&gt;BBB&lt;/prop&gt;
           &lt;/props&gt;
     &lt;/property&gt;
+
 在以上配置中，array,list,set,map都配置了两个值
 一个字面值，一个引用，注意其中的区别
 </code></pre><hr>
@@ -534,11 +536,11 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">生活点滴</a>
+                <a href="javascript:void(0)" class="js-tag color3">日记</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">日记</a>
+                <a href="javascript:void(0)" class="js-tag color5">生活点滴</a>
               </li>
              
               <li class="article-tag-list-item">
