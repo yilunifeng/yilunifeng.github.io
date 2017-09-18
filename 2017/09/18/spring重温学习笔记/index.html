@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="https://yilunifeng.github.io">
   <title>spring重温学习笔记 | 一路逆风</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="###spring IOC ####spring 中对于类加载文件的理解     spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFa">
+  <meta name="description" content="spring IOCspring 中对于类加载文件的理解    spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFactory 根据g">
 <meta name="keywords" content="spring">
 <meta property="og:type" content="article">
 <meta property="og:title" content="spring重温学习笔记">
 <meta property="og:url" content="https://yilunifeng.github.io/2017/09/18/spring重温学习笔记/index.html">
 <meta property="og:site_name" content="一路逆风">
-<meta property="og:description" content="###spring IOC ####spring 中对于类加载文件的理解     spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFa">
+<meta property="og:description" content="spring IOCspring 中对于类加载文件的理解    spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFactory 根据g">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-18T07:12:46.838Z">
+<meta property="og:updated_time" content="2017-09-18T07:14:56.229Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="spring重温学习笔记">
-<meta name="twitter:description" content="###spring IOC ####spring 中对于类加载文件的理解     spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFa">
+<meta name="twitter:description" content="spring IOCspring 中对于类加载文件的理解    spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：  beanFactory:通过classPathResource加载类路径下的配置文件 创建beanFactory对象DefaultListableBeanFactory 通过XmlBeanDefinitionReader对象加载BeanFactory 根据g">
   
     <link rel="alternative" href="/atom.xml" title="一路逆风" type="application/atom+xml">
   
@@ -196,17 +196,18 @@ var _hmt = _hmt || [];
         <!-- 目录内容结束 -->
     <div class="article-entry" itemprop="articleBody">
       
-        <p>###spring IOC</p>
-<p>####spring 中对于类加载文件的理解</p>
-<blockquote>
+        <h3 id="spring-IOC"><a href="#spring-IOC" class="headerlink" title="spring IOC"></a>spring IOC</h3><h4 id="spring-中对于类加载文件的理解"><a href="#spring-中对于类加载文件的理解" class="headerlink" title="spring 中对于类加载文件的理解"></a>spring 中对于类加载文件的理解</h4><blockquote>
 <p>   spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：</p>
 <ul>
 <li>beanFactory:通过classPathResource加载类路径下的配置文件</li>
 <li>创建beanFactory对象DefaultListableBeanFactory</li>
 <li>通过XmlBeanDefinitionReader对象加载BeanFactory</li>
-<li>根据getBean方法得到对应实例对象<a id="more"></a>
-ApplicationContent接口是基于BeanFactory对象的上层实现，扩展了声明周期，框架<br>事件，国际化的功能</li>
+<li>根据getBean方法得到对应实例对象</li>
 </ul>
+</blockquote>
+<a id="more"></a>
+<blockquote>
+<p>   ApplicationContent接口是基于BeanFactory对象的上层实现，扩展了声明周期，框架<br>   事件，国际化的功能</p>
 <ul>
 <li>ClassPathXmlApplicationContent对象加载类文件下的bean.xml</li>
 <li>或者FileSystemXmlApplicationContent对象加载文件路径下的bean.xml</li>
@@ -471,15 +472,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color3">日记</a>
+              </li>
+             
+              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">生活点滴</a>
               </li>
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">spring</a>
-              </li>
-             
-              <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">日记</a>
               </li>
             
             <div class="clearfix"></div>

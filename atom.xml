@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yilunifeng.github.io/"/>
-  <updated>2017-09-18T07:12:46.838Z</updated>
+  <updated>2017-09-18T07:14:56.229Z</updated>
   <id>https://yilunifeng.github.io/</id>
   
   <author>
@@ -20,19 +20,20 @@
     <link href="https://yilunifeng.github.io/2017/09/18/spring%E9%87%8D%E6%B8%A9%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>https://yilunifeng.github.io/2017/09/18/spring重温学习笔记/</id>
     <published>2017-09-18T06:57:27.000Z</published>
-    <updated>2017-09-18T07:12:46.838Z</updated>
+    <updated>2017-09-18T07:14:56.229Z</updated>
     
-    <content type="html"><![CDATA[<p>###spring IOC</p>
-<p>####spring 中对于类加载文件的理解</p>
-<blockquote>
+    <content type="html"><![CDATA[<h3 id="spring-IOC"><a href="#spring-IOC" class="headerlink" title="spring IOC"></a>spring IOC</h3><h4 id="spring-中对于类加载文件的理解"><a href="#spring-中对于类加载文件的理解" class="headerlink" title="spring 中对于类加载文件的理解"></a>spring 中对于类加载文件的理解</h4><blockquote>
 <p>   spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：</p>
 <ul>
 <li>beanFactory:通过classPathResource加载类路径下的配置文件</li>
 <li>创建beanFactory对象DefaultListableBeanFactory</li>
 <li>通过XmlBeanDefinitionReader对象加载BeanFactory</li>
-<li>根据getBean方法得到对应实例对象<a id="more"></a>
-ApplicationContent接口是基于BeanFactory对象的上层实现，扩展了声明周期，框架<br>事件，国际化的功能</li>
+<li>根据getBean方法得到对应实例对象</li>
 </ul>
+</blockquote>
+<a id="more"></a>
+<blockquote>
+<p>   ApplicationContent接口是基于BeanFactory对象的上层实现，扩展了声明周期，框架<br>   事件，国际化的功能</p>
 <ul>
 <li>ClassPathXmlApplicationContent对象加载类文件下的bean.xml</li>
 <li>或者FileSystemXmlApplicationContent对象加载文件路径下的bean.xml</li>
@@ -45,15 +46,15 @@ ApplicationContent接口是基于BeanFactory对象的上层实现，扩展了声
     
     <summary type="html">
     
-      &lt;p&gt;###spring IOC&lt;/p&gt;
-&lt;p&gt;####spring 中对于类加载文件的理解&lt;/p&gt;
-&lt;blockquote&gt;
+      &lt;h3 id=&quot;spring-IOC&quot;&gt;&lt;a href=&quot;#spring-IOC&quot; class=&quot;headerlink&quot; title=&quot;spring IOC&quot;&gt;&lt;/a&gt;spring IOC&lt;/h3&gt;&lt;h4 id=&quot;spring-中对于类加载文件的理解&quot;&gt;&lt;a href=&quot;#spring-中对于类加载文件的理解&quot; class=&quot;headerlink&quot; title=&quot;spring 中对于类加载文件的理解&quot;&gt;&lt;/a&gt;spring 中对于类加载文件的理解&lt;/h4&gt;&lt;blockquote&gt;
 &lt;p&gt;   spring中提供了两种对于ioc容器获取bean的方式（两种访问接口）：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;beanFactory:通过classPathResource加载类路径下的配置文件&lt;/li&gt;
 &lt;li&gt;创建beanFactory对象DefaultListableBeanFactory&lt;/li&gt;
 &lt;li&gt;通过XmlBeanDefinitionReader对象加载BeanFactory&lt;/li&gt;
-&lt;li&gt;根据getBean方法得到对应实例对象
+&lt;li&gt;根据getBean方法得到对应实例对象&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
     
     </summary>
     
