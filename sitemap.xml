@@ -2,6 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yilunifeng.github.io/photos/index.html</loc>
+    
+    <lastmod>2017-09-19T03:06:31.693Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yilunifeng.github.io/photos/index.html</loc>
+    
+    <lastmod>2017-09-19T00:40:21.939Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yilunifeng.github.io/photos/data.json</loc>
+    
+    <lastmod>2017-09-18T14:11:37.511Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yilunifeng.github.io/2017/09/18/spring%E9%87%8D%E6%B8%A9%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
     
     <lastmod>2017-09-18T08:38:33.630Z</lastmod>
@@ -23,14 +44,7 @@
   </url>
   
   <url>
-    <loc>https://yilunifeng.github.io/photo/index.html</loc>
-    
-    <lastmod>2017-09-07T14:56:46.917Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yilunifeng.github.io/photo/output.json</loc>
+    <loc>https://yilunifeng.github.io/photos/output.json</loc>
     
     <lastmod>2017-09-07T13:47:22.476Z</lastmod>
     
